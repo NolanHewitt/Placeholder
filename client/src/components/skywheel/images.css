@@ -1,0 +1,12 @@
+#sun{
+    width: 15%;
+    z-index: 1;
+    position: absolute;
+    margin-top: 2%;
+}
+#moon{
+    width: 15%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 2%;
+}

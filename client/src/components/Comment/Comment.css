@@ -1,0 +1,40 @@
+select {
+    display: block;
+    color: goldenrod;
+    background: black;
+}
+.comment-post {
+    width: 50%;
+    height:20px;
+    padding: 2%;
+    color: goldenrod;
+    text-align: center;
+    margin: auto;
+    margin-top: 20%;
+}
+#comment-box {
+    height: 55px;
+    color: goldenrod;
+}
+option {
+    color: goldenrod;
+}
+.button {
+    background-color: rgb(41, 121, 255);  
+    color: white;
+    border-radius: 3px;
+    border: 2px;
+}
+.button:hover {
+    background-color: rgb(13, 13, 99);
+}
+#commentsa {
+    margin-top: 2.5%;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+        color: white;
+        font-weight: bolder;
+        border: 2px black;
+        padding: 10px;
+}
