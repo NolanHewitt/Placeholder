@@ -7,22 +7,22 @@ import "./App.css";
   let dataXBOX;
   let dataSWITCH;
 
-    $.getJSON('http://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivensPC.json', function (data) {
+    $.getJSON('https://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivensPC.json', function (data) {
         dataPC = data;
         console.log(dataPC);
     });
 
-    $.getJSON('http://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivensPS4.json', function (data) {
+    $.getJSON('https://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivensPS4.json', function (data) {
         dataPS4 = data;
         console.log(dataPS4);
     });
 
-    $.getJSON('http://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivensXB1.json', function (data) {
+    $.getJSON('https://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivensXB1.json', function (data) {
         dataXBOX = data;
         console.log(dataXBOX);
     });
 
-    $.getJSON('http://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivensSWI.json', function (data) {
+    $.getJSON('https://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivensSWI.json', function (data) {
         dataSWITCH = data;
         console.log(dataSWITCH);
     });
