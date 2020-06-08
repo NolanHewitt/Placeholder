@@ -38,3 +38,11 @@
   #gunSelector {
     display: none;
   }
+
+  #systemSelect{
+      display: block;
+  }
+
+  #gunSelect{
+      display: block;
+  }

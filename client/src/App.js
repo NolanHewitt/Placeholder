@@ -284,7 +284,7 @@ class App extends Component {
       <form onSubmit={this.handleSubmit}>
         <label>
           Select your system:
-          <select value={this.state.value} onChange={this.handleChange}>
+          <select id="systemSelect" value={this.state.value} onChange={this.handleChange}>
             <option value="PC">PC</option>
             <option value="PS4">PS4</option>
             <option value="XBOX">XBOX</option>
@@ -308,7 +308,7 @@ class App extends Component {
       <form onSubmit={this.handleWeaponSubmit}>
         <label>
           Select your Weapon:
-          <select value={this.state.value} onChange={this.handleWeaponChange}>
+          <select id="gunSelect" value={this.state.value} onChange={this.handleWeaponChange}>
             <option value="Gun1">Gun1</option>
             <option value="Gun2">Gun2</option>
             <option value="Gun3">Gun3</option>
