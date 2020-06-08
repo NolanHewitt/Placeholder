@@ -44,5 +44,9 @@
   }
 
   #gunSelect{
-      display: block;
+      display: none;
+  }
+
+  #gunSelectList{
+    display: Block;
   }
